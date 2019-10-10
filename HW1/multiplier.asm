@@ -3,6 +3,7 @@ argument: .word -10000
 argument2: .word -7
 str1: .string "result is "
 .text
+
 main:
 	addi	sp,sp.-24
 	lw	a5,argument
